@@ -2,12 +2,12 @@
   "name": "pure-ui-multiselect",
   "version": "1.0.4",
   "description": "A lightweight, customizable multiselect dropdown component.",
-  "main": "dist/pure-ui-multiselect.umd.js",
-  "module": "dist/pure-ui-multiselect.mjs",
+  "main": "dist/pure-ui-multiselect.cjs.js",
+  "module": "dist/pure-ui-multiselect.esm.js",
   "unpkg": "dist/pure-ui-multiselect.umd.js",
   "exports": {
-    "import": "./dist/pure-ui-multiselect.mjs",
-    "require": "./dist/pure-ui-multiselect.umd.js"
+    "import": "./dist/pure-ui-multiselect.esm.js",
+    "require": "./dist/pure-ui-multiselect.cjs.js"
   },
   "type": "module",
   "files": [
@@ -25,7 +25,12 @@
   ],
   "author": "IrakliDev",
   "license": "MIT",
+  "scripts": {
+    "build": "rollup -c"
+  },
   "devDependencies": {
-    "rollup": "^4.44.0"
+    "rollup": "^4.44.0",
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3"
   }
 }
