@@ -1,0 +1,11 @@
+{
+ "name": "pure-ui-multiselect",
+  "version": "1.0.0",
+  "description": "A lightweight, customizable multiselect dropdown component.",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "type": "module",
+  "keywords": ["multiselect", "dropdown", "ui", "pure-ui", "component"],
+  "author": "IrakliDev",
+  "license": "MIT"
+}
