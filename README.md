@@ -4,17 +4,15 @@ A clean, customizable multi-select dropdown component built with pure JavaScript
 
 ## Features
 
-- ✅ Lightweight & fast
-- ✅ No dependencies (except Tailwind CSS)
-- ✅ Easy integration with any project
-- ✅ Flexible option data
-- ✅ Modern UI with Tailwind styling
+✅ Lightweight & fast
+✅ No dependencies (except Tailwind CSS)
+✅ Easy integration with any project
+✅ Flexible option data
+✅ Modern UI with Tailwind styling
 
 ## Requirements
 
 - Tailwind CSS is required for styling.
-
----
 
 ## Installation
 
@@ -68,3 +66,15 @@ Or include directly from CDN:
     new MultiSelect(document.querySelector('[data-pui-ms]'), options);
     </script>
     ```
+
+## Example Options Format
+
+The options must have `id` and `name`
+
+```html
+[
+  { id: 1, name: 'Apples' },
+  { id: 2, name: 'Bananas' },
+  { id: 3, name: 'Cherries' }
+]
+```
