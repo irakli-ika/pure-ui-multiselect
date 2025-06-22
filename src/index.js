@@ -1,6 +1,6 @@
 import template from "./template.js";
 
-class PureUiMultiSelect {
+class PureKitMultiSelect {
   constructor(container, optionItems = []) {
     this.container = container;
     this.optionItems = optionItems;
@@ -223,13 +223,12 @@ class PureUiMultiSelect {
   }
 }
 
-// For UMD global use:
 if (typeof window !== 'undefined') {
-  window.PureUiMultiSelect = PureUiMultiSelect;
+  window.PureKitMultiSelect = PureKitMultiSelect;
 }
 
 if (typeof module !== 'undefined' && module.exports) {
-  module.exports = PureUiMultiSelect;
+  module.exports = PureKitMultiSelect;
 }
 
-export default PureUiMultiSelect;
+export default PureKitMultiSelect;

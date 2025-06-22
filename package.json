@@ -1,13 +1,13 @@
 {
-  "name": "pure-ui-multiselect",
+  "name": "pure-kit-multiselect",
   "version": "1.0.5",
   "description": "A lightweight, customizable multiselect dropdown component.",
-  "main": "dist/pure-ui-multiselect.cjs.js",
-  "module": "dist/pure-ui-multiselect.esm.js",
-  "unpkg": "dist/pure-ui-multiselect.umd.js",
+  "main": "dist/pure-kit-multiselect.cjs.js",
+  "module": "dist/pure-kit-multiselect.esm.js",
+  "unpkg": "dist/pure-kit-multiselect.umd.js",
   "exports": {
-    "import": "./dist/pure-ui-multiselect.esm.js",
-    "require": "./dist/pure-ui-multiselect.cjs.js"
+    "import": "./dist/pure-kit-multiselect.esm.js",
+    "require": "./dist/pure-kit-multiselect.cjs.js"
   },
   "type": "module",
   "files": [
@@ -21,6 +21,10 @@
     "dropdown",
     "ui",
     "pure-ui",
+    "pure-kit",
+    "pure-kit-multiselect",
+    "pure-ui-kit",
+    "ui-kit",
     "component"
   ],
   "author": "IrakliDev",
