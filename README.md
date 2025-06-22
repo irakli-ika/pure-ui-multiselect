@@ -49,15 +49,15 @@ npm i pure-kit-multiselect
     - Option A: ESM
     
     ```js
-        import PureUiMultiselect from 'pure-kit-multiselect';
+    import PureUiMultiselect from 'pure-kit-multiselect';
 
-        const options = [
-            { id: 1, name: 'Option A' },
-            { id: 2, name: 'Option B' },
-            { id: 3, name: 'Option C' }
-        ];
+    const options = [
+        { id: 1, name: 'Option A' },
+        { id: 2, name: 'Option B' },
+        { id: 3, name: 'Option C' }
+    ];
 
-        new PureUiMultiselect(document.querySelector('[data-pui-ms]'), options);
+    new PureUiMultiselect(document.querySelector('[data-pui-ms]'), options);
     ```
 
     - Option B: Using CDN
