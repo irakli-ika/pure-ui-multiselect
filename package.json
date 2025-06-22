@@ -1,12 +1,21 @@
 {
   "name": "pure-ui-multiselect",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A lightweight, customizable multiselect dropdown component.",
-  "main": "dist/index.js",
-  "module": "dist/index.js",
+  "main": "dist/pure-ui-multiselect.umd.js",
+  "module": "dist/pure-ui-multiselect.mjs",
   "unpkg": "dist/pure-ui-multiselect.umd.js",
-  "browser": "dist/pure-ui-multiselect.umd.js",
+  "exports": {
+    "import": "./dist/pure-ui-multiselect.mjs",
+    "require": "./dist/pure-ui-multiselect.umd.js"
+  },
   "type": "module",
+  "files": [
+    "dist/",
+    "src/",
+    "README.md",
+    "LICENSE"
+  ],
   "keywords": [
     "multiselect",
     "dropdown",
@@ -16,12 +25,6 @@
   ],
   "author": "IrakliDev",
   "license": "MIT",
-  "files": [
-    "dist/",
-    "src/",
-    "README.md",
-    "LICENSE"
-  ],
   "devDependencies": {
     "rollup": "^4.44.0"
   }
