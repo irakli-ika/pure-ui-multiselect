@@ -71,10 +71,12 @@ Or include directly from CDN:
 
 The options must have `id` and `name`
 
+for example:
+
 ```html
 [
-  { id: 1, name: 'Apples' },
-  { id: 2, name: 'Bananas' },
-  { id: 3, name: 'Cherries' }
+  { id: 1, name: 'JavaScript' },
+  { id: 2, name: 'PHP' },
+  { id: 3, name: 'Python' }
 ]
 ```
