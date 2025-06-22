@@ -225,7 +225,11 @@ class PureUiMultiSelect {
 
 // For UMD global use:
 if (typeof window !== 'undefined') {
-  window.MultiSelect = PureUiMultiSelect;
+  window.PureUiMultiSelect = PureUiMultiSelect;
+}
+
+if (typeof module !== 'undefined' && module.exports) {
+  module.exports = PureUiMultiSelect;
 }
 
 export default PureUiMultiSelect;
