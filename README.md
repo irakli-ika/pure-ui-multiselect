@@ -4,11 +4,11 @@ A clean, customizable multi-select dropdown component built with pure JavaScript
 
 ## Features
 
--✅ Lightweight & fast
--✅ No dependencies (except Tailwind CSS)
--✅ Easy integration with any project
--✅ Flexible option data
--✅ Modern UI with Tailwind styling
+* ✅ Lightweight & fast
+* ✅ No dependencies (except Tailwind CSS)
+* ✅ Easy integration with any project
+* ✅ Flexible option data
+* ✅ Modern UI with Tailwind styling
 
 ## Requirements
 
