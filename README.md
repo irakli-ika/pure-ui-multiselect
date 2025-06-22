@@ -2,6 +2,12 @@
 
 A clean, customizable multi-select dropdown component.
 
+## Install
+
+```
+    npm install pure-ui-multiselect
+```
+
 ## Usage
 
 ```html
