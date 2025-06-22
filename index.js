@@ -1,6 +1,6 @@
 import template from "./template.js";
 
-export default class MultiSelect {
+export default class PureUiMultiSelect {
   constructor(container, optionItems = []) {
     this.container = container;
     this.optionItems = optionItems;
