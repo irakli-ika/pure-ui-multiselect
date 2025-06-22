@@ -48,7 +48,7 @@ npm i pure-kit-multiselect
 2. Initialize the PureUiMultiselect
     - Option A: ESM
     
-    ```html
+    ```js
         import PureUiMultiselect from 'pure-kit-multiselect';
 
         const options = [
@@ -77,7 +77,7 @@ npm i pure-kit-multiselect
 
     - Option C: Using CommonJS
     
-    ```html
+    ```js
     const MultiSelect = require('pure-kit-multiselect');
     
     const options = [
@@ -95,7 +95,7 @@ The options must have `id` and `name`
 
 for example:
 
-```html
+```js
 [
   { id: 1, name: 'JavaScript' },
   { id: 2, name: 'PHP' },
