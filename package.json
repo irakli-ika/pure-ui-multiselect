@@ -1,6 +1,6 @@
 {
   "name": "pure-ui-multiselect",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A lightweight, customizable multiselect dropdown component.",
   "main": "dist/pure-ui-multiselect.umd.js",
   "module": "dist/pure-ui-multiselect.mjs",
