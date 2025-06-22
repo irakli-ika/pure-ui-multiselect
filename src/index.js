@@ -1,6 +1,6 @@
 import template from "./template.js";
 
-export default class PureUiMultiSelect {
+class PureUiMultiSelect {
   constructor(container, optionItems = []) {
     this.container = container;
     this.optionItems = optionItems;
@@ -222,3 +222,10 @@ export default class PureUiMultiSelect {
     this.searchInput.addEventListener("input", () => this.searchOptions());
   }
 }
+
+// For UMD global use:
+if (typeof window !== 'undefined') {
+  window.MultiSelect = PureUiMultiSelect;
+}
+
+export default PureUiMultiSelect;

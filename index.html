@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Multiselect Test</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div data-pui-ms></div>
+
+    <script src="./dist/pure-ui-multiselect.umd.js"></script>
+    <script>
+      const options = [
+        { id: 1, name: 'Apple' },
+        { id: 2, name: 'Banana' },
+        { id: 3, name: 'Cherry' }
+      ];
+
+      new MultiSelect(document.querySelector('[data-pui-ms]'), options);
+    </script>
+  </body>
+</html>
