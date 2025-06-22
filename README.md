@@ -1,4 +1,4 @@
-# Pure UI Multiselect
+# Pure UI Multiselect (Demo)
 
 A clean, customizable multi-select dropdown component built with pure JavaScript and Tailwind CSS.
 
